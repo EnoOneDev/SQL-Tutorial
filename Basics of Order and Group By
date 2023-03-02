@@ -1,0 +1,31 @@
+Select Gender
+From EmployeeDemographics
+Group By Gender;
+
+Select Gender, Count(Gender)
+From EmployeeDemographics
+Group By Gender;
+
+Select Gender, Age, Count(Gender)
+From EmployeeDemographics
+Group By Gender, Age;
+
+Select Gender, Count(Gender) AS CountGender
+From EmployeeDemographics
+Where Age > 31
+Group By Gender
+Order By CountGender ASC *Smallest to Largest*;
+DESC * Largest to Smallest*
+
+Select *
+From EmployeeDemographics
+Order By Age, Gender;
+
+Select *
+From EmployeeDemographics
+Order By Age DESC, Gender DESC;
+
+Select *
+From EmployeeDemographics
+Order By 4 DESC, 5 DESC;
+* Can use numbers of where they are located in the table instead of column names*
