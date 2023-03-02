@@ -1,0 +1,32 @@
+Select *
+From EmployeeDemographics;
+
+Select FirstName,LastName
+From EmployeeDemographics;
+
+Select Top 5 *
+From EmployeeDemographics;
+
+Select Distinct(EmployeeID)
+From EmployeeDemographics;
+
+Select Distinct(Gender)
+From EmployeeDemographics;
+
+Select Count(LastName)
+From EmployeeDemographics;
+
+Select Count(LastName) AS LastNameCount
+From EmployeeDemographics;
+
+Select *
+From EmployeeSalary;
+
+Select Max(Salary)
+From EmployeeSalary;
+
+Select Min(salary)
+From EmployeeSalary;
+
+Select Avg(Salary)
+From EmployeeSalary;
