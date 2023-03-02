@@ -1,0 +1,51 @@
+Select *
+From EmployeeDemographics
+Where FirstName = 'Jim';
+
+Select *
+From EmployeeDemographics
+Where FirstName <> 'Jim';
+
+Select *
+From EmployeeDemographics
+Where Age > 30;
+
+Select *
+From EmployeeDemographics
+Where Age >= 30;
+
+Select *
+From EmployeeDemographics
+Where Age < 32;
+
+Select *
+From EmployeeDemographics
+Where Age <= 32;
+
+Select *
+From EmployeeDemographics
+Where Age <= 32 AND Gender = 'Male';
+
+Select *
+From EmployeeDemographics
+Where Age <= 32 OR Gender = 'Male';
+
+Select *
+From EmployeeDemographics
+Where LastName LIke 'S%';
+
+Select *
+From EmployeeDemographics
+Where LastName LIke '%S%';
+
+Select *
+From EmployeeDemographics
+Where FirstName IS NULL;
+
+Select *
+From EmployeeDemographics
+Where FirstName IS NOT NULL;
+
+Select *
+From EmployeeDemographics
+Where FirstName IN ('Jim','Michael');
